@@ -7,6 +7,9 @@ with open("input.txt", "r") as f:
 if data and data[-1] == "\n":
     data = data[:-1]
 
+original = data
+lines = data.splitlines()
+
 py_input = input
 
 def input():
